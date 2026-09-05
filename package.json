@@ -1,18 +1,31 @@
 {
   "name": "albertool-basic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic CRUD route skeleton generator for students — JS, TS, PHP, Java",
   "main": "src/index.js",
   "bin": {
-    "albertool-basic": "./bin/cli.js"
+    "albertool-basic": "bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "Readme_en.md",
+    "Changelog.md"
+  ],
   "dependencies": {
     "inquirer": "^8.2.6"
   },
-  "keywords": ["crud", "generator", "express", "slim", "spark", "albertool"],
+  "keywords": [
+    "crud",
+    "generator",
+    "express",
+    "slim",
+    "spark",
+    "albertool"
+  ],
   "author": "Albertão",
   "license": "MIT"
 }
